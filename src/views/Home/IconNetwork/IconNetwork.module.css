@@ -1,0 +1,10 @@
+.Container {
+  width: 27px;
+  height: 27px;
+}
+
+.Icon {
+  width: 27px;
+  height: 27px;
+  border-radius: 5px;
+}

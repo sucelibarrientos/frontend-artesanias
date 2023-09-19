@@ -1,7 +1,13 @@
 import Navegacion from "./../components/Navegacion";
 import Box from "../components/Box";
+import config from './../config/config';
+import { useEffect } from "react";
+
 
 function Catalogo() {
+  useEffect(() => {
+    document.title = config.title.catalogo;
+  }, []);
   return (
     <div className="container">
       <Navegacion />

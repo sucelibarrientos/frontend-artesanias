@@ -1,9 +1,14 @@
-import Navegacion from "./../components/Navegacion";
+import Navbar from "../components/Navbar/Navbar";
+import { useEffect } from "react";
+import config from './../config/config';
 
 function Nosotros() {
+  useEffect(() => {
+    document.title = config.title.nosotros;
+  }, []);
   return (
     <div>
-      <Navegacion />
+      <Navbar />
       <h1>Nosotros</h1>
     </div>
   );

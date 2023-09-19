@@ -1,0 +1,23 @@
+.Container {
+    background-color: var(--color-navbar);
+    width: 100%;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 10;
+}
+
+.Links{
+    display: flex;
+    flex-direction: row;
+    gap:26px;
+    margin-left: 17px;
+}
+
+.Link{
+    color: var(--color-text-navbar-link);
+    font-size: 20px;
+    font-family: "Text-SemiBold", sans-serif;
+    text-decoration: none;
+}
